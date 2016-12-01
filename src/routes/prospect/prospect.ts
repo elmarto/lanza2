@@ -1,0 +1,22 @@
+export interface IProspect {
+    id: number,
+    email: string,
+    first_name: string,
+    last_name: string,
+    company: string,
+    website: string,
+    tags: string,
+    title: string,
+    phone: string,
+    address: string,
+    city: string,
+    country: string,
+    last_contacted: string,
+    last_replied: string,
+    updated: string,
+    snipet1: string,
+    snipet2: string,
+    snipet3: string,
+    snipet4: string,
+    status: string
+}
