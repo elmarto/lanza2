@@ -12,20 +12,11 @@ export class IndexRouter {
   }
 
   /**
-   * GET the Welcome
-   */
-  public welcome(req: Request, res: Response, next: NextFunction) {
-    res.json({
-      message: 'Hello World!'
-    });
-  }
-
-  /**
    * Take each handler, and attach to one of the Express.Router's
    * endpoints.
    */
   init() {
-    this.router.get('/', this.welcome);
+    
   }
 
 }
